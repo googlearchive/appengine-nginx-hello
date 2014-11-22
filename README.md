@@ -19,11 +19,11 @@ This is a minimal managed VM runtime that runs the nginx server.  It
 implements the two required handlers (`/_ah/start` and `/_ah/health`) as
 static pages and illustrates the files necessary to run a custom runtime.
 
-`app.yaml` - Configuration file for App Engine.
-`Dockerfile` - Defines your docker image.
-`www/index.html` - Root page to be served by nginx.
-`nginx.conf` - nginx configuration file.
-`ok` - File content served by start and health handlers.
++ `app.yaml` - Configuration file for App Engine.
++ `Dockerfile` - Defines your docker image.
++ `www/index.html` - Root page to be served by nginx.
++ `nginx.conf` - nginx configuration file.
++ `ok` - File content served by start and health handlers.
 
 Running Locally
 ===============
