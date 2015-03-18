@@ -5,7 +5,7 @@ Getting Started
 If you haven't already, make sure you are familiar with Custom Runtimes in the
 [App Engine Managed VM documentation](https://cloud.google.com/appengine/docs/managed-vms/custom-runtimes).
 
-You must have the Google Cloud SDK, with the Managed VM component installed.
+You must have the [Google Cloud SDK](https://cloud.google.com/sdk/), with the [Managed VM component](https://cloud.google.com/appengine/docs/managed-vms/) installed.
 We will assume that the SDK is available on your command line as `$ gcloud`.
 
 You must also [install
@@ -42,7 +42,7 @@ at [http://localhost:8080](http://localhost:8080).
 Deploying your Application
 ==========================
 
-To deploy to App Engine:
+To deploy to [App Engine](https://cloud.google.com/appengine/):
 
   `$ gcloud preview app deploy /path/to/appengine-nginx-hello`
 
